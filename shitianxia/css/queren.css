@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0.24rem;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	color: #030303;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+.back {
+	width: 7.5rem;
+	height: 14.5rem;
+	background-image: url(../img/qr/0.png);
+	background-size: 7.5rem 7.1rem;
+	background-color: #eee7e6;
+}
+
+
+.head {
+	width: 7.5rem;
+	height: 6rem;
+}
+.head_top {
+	width: 7.02rem;
+	height: 0.45rem;
+	padding: 0.24rem;
+}
+.head_top img {
+	width: 0.45rem;
+	height: 0.45rem;
+}
+.head_center {
+	width: 7.5rem;
+	height: 2rem;
+}
+.head_center_l {
+	width: 6.2rem;
+	height: 100%;
+	margin-left: 0.24rem;
+	float: left;
+}
+.head_center_l p {
+	color: #fdfafa;
+	font-size: 0.30rem;
+	margin: 0.1rem 0;
+}
+.head_center_l>span>p {
+	color: #fdfafa;
+	font-size: 0.38rem;
+	display: inline-block;
+	margin: 0.2rem 0.5rem 0.2rem 0;
+}
+.head_center i {
+	font-size: 0.5rem;
+	line-height: 2rem;
+	color: #ae3d34;
+}
+.head_bottom {
+	width: 7.02rem;
+	height: 2.8rem;
+	margin: 0.24rem auto 0;
+	background-color: #f7f5f5;
+	border-radius: 0.15rem;
+}
+.head_bottom span {
+	font-size: 0.3rem;
+	color: #131313;
+}
+.head_bottom div {
+	padding: 0.24rem 0 0 0.24rem;
+}
+.head_bottom span p {
+	width: 1.40rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	font-size: 0.26rem;
+	display: inline-block;
+	border: solid 0.03rem #cfc9c9; 
+	border-radius: 0.15rem;
+}
+.head_bottom span select {
+	width: 1.7rem;
+	height: 0.5rem;
+	font-size: 0.26rem;
+	border: solid 0.03rem #cfc9c9;
+	border-radius: 0.15rem;
+	margin-right: 0.3rem;
+}
+.head_bottom textarea {
+	width: 5rem;
+	height: 0.6rem;
+	text-align: center;
+	float: right;
+	margin-right: 0.24rem;
+}
+
+
+
+.main {
+	width: 7.5rem;
+	height: 8.46rem;
+	padding-top: 0.24rem;
+	/*background-color: #fff;*/
+}
+.main_M {
+	width: 7.02rem;
+	height: 9rem;
+	margin: auto;
+	/*background-color: #fff;*/
+}
+.main_top {
+	width: 7.02rem;
+	height: 1.9rem;
+	background-color: #f7f5f5;
+	margin: auto;
+	border-bottom: solid 0.01rem #e18d69;
+	border-radius: 0.15rem 0.15rem 0 0;
+}
+.main_top_l {
+	width: 1.9rem;
+	height: 1.9rem;
+	float: left;
+}
+.main_top_l img {
+	width: 1.46rem;
+	height: 1.47rem;
+	margin: 0.22rem;
+}
+.main_top_r {
+	width: 5rem;
+	height: 1.9rem;
+	float: left;
+}
+.main_top_r h6 {
+	color: #030303;
+	font-size: 0.4rem;
+	padding: 0.4rem 0 0.1rem;
+}
+.main_top_r p {
+	color: #030303;
+	font-size: 0.22rem;
+	padding: 0.2rem 0;
+}
+.main_center {
+	width: 7.02rem;
+	height: 3.62rem;
+	margin: auto;
+	background-color: #f7f5f5;
+	border-bottom: solid 0.01rem #e18d69;
+}
+.mian_center_box {
+	width: 6.54rem;
+	height: 1.33rem;
+	padding: 0.24rem;
+}
+.mian_center_box_l,.mian_center_box_l img {
+	width: 1.33rem;
+	height: 1.33rem;
+	float: left;
+}
+.mian_center_box_c {
+	width: 1.8rem;
+	height: 1.33rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.mian_center_box_c h6 {
+	font-size: 0.28rem;
+	color: #030303;
+	padding-top: 0.3rem;
+}
+.mian_center_box_c p {
+	font-size: 0.22rem;
+	color: #030303;
+	padding-top: 0.1rem;
+}
+.mian_center_box_r {
+	width: 3rem;
+	height: 1.33rem;
+	float: right;
+}
+.mian_center_box_r span {
+	font-size: 0.3rem;
+	color: #030303;
+	line-height: 1.33rem;
+}
+.mian_center_box_r i {
+	font-size: 0.2rem;
+}
+.mian_center_box_r h6 {
+	font-size: 0.36rem;
+	color: #f12b2b;
+	float: right;
+}
+.main_bottom {
+	width: 7.02rem;
+	height: 3.30rem;
+	background-color: #f7f5f5;
+	margin: auto;
+}
+.main_bottom li {
+	color: #181818;
+	font-size: 0.34rem;
+	font-weight: 600;
+	padding: 0.08rem 0.24rem;
+}
+.main_bottom li span {
+	color: #181818;
+	font-size: 0.28rem;
+	font-weight: 300;
+}
+.main_bottom h6 {
+	color: #f41117;
+	font-size: 0.38rem;
+	float: right;
+	margin-right: 0.24rem;
+}
+
+.footer {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/b.png);
+	background-size: 7.5rem 0.88rem;
+	z-index: 99;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer a {
+	/*width: 7.5rem;
+	height: 0.88rem;*/
+	color: #edecec;
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	/*padding: 0.2rem 3rem;*/
+	/*margin: 0 2.9rem;*/
+	padding: 0.2rem 2.95rem;
+}

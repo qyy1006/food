@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0.24rem;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+.back {
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url(../img/jr/jr_bj.png);
+	background-size: 7.5rem 13.34rem;
+	margin: 0;
+	padding: 0;
+	/*background-color: yellow;*/
+}
+img {
+	margin: 3rem 1.75rem 0;
+	width: 4rem;
+	height: 4rem;
+}
+h6 {
+	font-size: 0.34rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	margin: 3rem auto 0;
+}
+.back div {
+	background-image: url(../img/jr/jr_an.png);
+	background-size: 2.13rem 0.88rem;
+	width: 2.13rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	margin: 0.1rem auto;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.26rem;
+}

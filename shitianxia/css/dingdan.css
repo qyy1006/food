@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0.24rem;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+.back {
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: #eee7e6;
+	margin: 0;
+	padding: 0;
+	/*background-size: 7.5rem 13.34rem;*/
+}
+
+.head {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/t.png);
+	background-size: 7.5rem 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #fbfcf8;
+	font-size: 0.4rem;
+	margin-bottom: 0.24rem;
+}
+
+
+
+
+.main {
+	width: 7.10rem;
+	height: 5rem;
+	/*background-color: red;*/
+	margin: auto;
+}
+.main_one {
+	width: 7.08rem;
+	height: 3.09rem;
+	background-image: url(../img/sy/bd.png);
+	background-size: 7.08rem 3.09rem;
+	margin-bottom: 0.24rem;
+}
+.main_o_l {
+	width: 2.72rem;
+	height: 100%;
+	float: left;
+}
+.main_o_l img {
+	width: 2rem;
+	height: 2rem;
+	margin: 0.36rem;
+}
+.main_o_r {
+	width: 4.36rem;
+	height: 100%;
+	float: right;
+}
+.m_o_r_t {
+	width: 100%;
+	height: 50%;
+	margin-top: 0.4rem;
+}
+.m_o_r_b {
+	width: 80%;
+	height: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+.m_o_r_b div {
+	width: 1.5rem;
+	height: 0.7rem;
+	background-image: url(../img/dd/an.png);
+	background-size: 1.5rem 0.7rem;
+	line-height: 0.7rem;
+	text-align: center;
+	color: #f8f3f3;
+	font-size: 0.24rem;
+}
+.M_t_l {
+	width: 3rem;
+	height: 100%;
+	float: left;
+}
+.M_t_r {
+	width: 1rem;
+	height: 100%;
+	float: right;
+	margin-right: 0.24rem;
+}
+.M_t_l h4 {
+	color: #030303;
+	font-size: 0.28rem;
+	margin: 0.15rem 0;
+}
+.M_t_r h3 {
+	margin: 0.5rem 0 0;
+	color: #ee1418;
+	font-size: 0.3rem;
+}
+.m_o_r_t p {
+	color: #030303;
+	font-size: 0.22rem;
+	margin: 0.05rem 0;
+}
+.footer {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/b.png);
+	background-size: 7.5rem 0.88rem;
+	z-index: 99;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer img {
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0.1rem 0.51rem 0;
+}
+.footer p {
+	width: 0.5rem;
+	height: 100%;
+	font-size: 0.22rem;
+	margin: 0 auto 0.1rem;
+	color: #eee7e6;
+}
+.footer div {
+	width: 1.5rem;
+	height: 100%;
+	float: left;
+}

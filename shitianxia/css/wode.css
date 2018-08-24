@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0.24rem;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+.back {
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: #eee7e6;
+}
+.top {
+	width: 7.5rem;
+	height: 2.93rem;
+	background-image: url(../img/wd/t.png);
+	background-size: 7.5rem 2.93rem;
+}
+.top img {
+	width: 1.7rem;
+	height: 1.7rem;
+	margin: 0 2.9rem 1.23rem;
+}
+.top_head {
+	/*background-color: black;*/
+	width: 7.5rem;
+	height: 1.23rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top_head div {
+	/*background-color: red;*/
+	width: 1.23rem;
+	height: 1.23rem;
+	color: #eee7e6;
+	font-size: 0.40rem;
+	line-height: 1.23rem;
+	text-align: center;
+}
+.top_head i {
+	font-size: 0.5rem;
+}
+
+.select {
+	width: 7.5rem;
+	height: 2.6rem;
+	/*background-color: red;*/
+}
+.select p {
+	text-align: center;
+	color: #323232;
+	font-size: 0.3rem;
+}
+.select_b {
+	width: 6.12rem;
+	height: 1.85rem;
+	/*background-color: blue;*/
+	margin: auto;
+}
+.select_b_l {
+	width: 2.04rem;
+	height: 100%;
+	float: left;
+}
+.select_b_l p {
+	margin: 0;
+	color: #323232;
+	font-size: 0.26rem;
+}
+.select_b_l img {
+	margin: 0.4rem 0.78rem 0.1rem;
+	width: 0.48rem;
+	height: 0.47rem;
+}
+.main {
+	width: 6.63rem;
+	height: 2.82rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	margin: 0 auto 0.5rem;
+}
+.main_top {
+	width: 6rem;
+	height: 0.94rem;
+	float: left;
+}
+.main_top img {
+	width: 0.4rem;
+	height: 0.45rem;
+	margin: 0.25rem 0.2rem;
+	float: left;
+}
+.main_top p {
+	margin: 0.3rem 0;
+	/*display: block;*/
+	float: left;
+	color: #323232;
+	font-size: 0.26rem;
+}
+.footer {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/b.png);
+	background-size: 7.5rem 0.88rem;
+	z-index: 99;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer img {
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0.1rem 0.51rem 0;
+}
+.footer p {
+	width: 0.5rem;
+	height: 100%;
+	font-size: 0.22rem;
+	margin: 0 auto 0.1rem;
+	color: #eee7e6;
+}
+.footer div {
+	width: 1.5rem;
+	height: 100%;
+	float: left;
+}

@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0.24rem;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+.back {
+	width: 7.5rem;
+	height: 30rem;
+	background-color: #eee7e6;
+	margin: 0;
+	padding: 0;
+	/*background-size: 7.5rem 13.34rem;*/
+}
+.top,img {
+	width: 7.5rem;
+	height: 0.4rem;
+}
+.head {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/t.png);
+	background-size: 7.5rem 0.88rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.head img {
+	width: 0.39rem;
+	height: 0.48rem;
+	margin-left: 0.24rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.head h2 {
+	color: #fff;
+	display: inline-block;
+	line-height: 0.88rem;
+	margin: 0 0.1rem;
+	float: left;
+}
+.head div {
+	width: 3.75rem;
+	height: 0.53rem;
+	background-color: #fff;
+	display: inline-block;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.2rem;
+	border-radius: 0.1rem;
+}
+.head input {
+	width: 3rem;
+	height: 0.53rem;
+	background: none;
+	border: none;
+	float: left;
+}
+.head div img {
+	width: 0.38rem;
+	height: 0.38rem;
+	margin: 0.1rem 0.1rem;
+	float: right;
+}
+.banner {
+	width: 7.02rem;
+	height: 4rem;
+	/*background-image: url(../img/sy/lbb.png);
+	background-size: 7.14rem 4.12rem;*/
+	margin: 0.24rem auto;
+	position: relative;
+	padding-top: 0.88rem;
+}
+.banner_img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.banner_img>ul {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.banner_img>ul>li {
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+	position: absolute;
+	/*top: 0;
+	left: 0.06rem;*/
+}
+.banner_img>ul>li img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+}
+.banner>ul {
+	width: 2.2rem;
+	height: 0.6rem;
+	z-index: 9;
+	position: absolute;
+	bottom: 0;
+	left: 2.41rem;
+	display: flex;
+	justify-content: space-between;
+}
+.banner>ul>li {
+	display: inline-block;
+	float: left;
+	z-index: 9;
+}
+.banner>ul>li img {
+	width: 0.52rem;
+	height: 0.24rem;
+}
+.category {
+	width: 7.14rem;
+	height: 3.5rem;
+	/*background-color: red;*/
+	margin: auto;
+}
+.catagory_1 {
+	width: 1.34rem;
+	height: 1.8rem;
+	margin: 0;
+	float: left;
+}
+.category img {
+	width: 1.1rem;
+	height: 1.11rem;
+	margin: 0 0.3rem 0;
+}
+.category p {
+	width: 1.58rem;
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	text-align: center;
+	margin: auto;
+	color: #030303;
+	/*text-decoration: none;*/
+}
+.advertisement {
+	width: 7.1rem;
+	height: 1.59rem;
+	margin: auto;
+}
+.advertisement img {
+	width: 7.1rem;
+	height: 1.59rem;
+}
+.cut {
+	width: 7.02rem;
+	height: 1.25rem;
+	margin: 0.24rem auto;
+	border-bottom: solid 0.02rem;
+}
+.cut>img {
+	width: 7.02rem;
+	height: 0.66rem;
+}
+.cut a {
+	width: 1.75rem;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	color: #030303;
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+	/*border-bottom: solid 0.02rem;*/
+}
+.cut a img {
+	width: 0.14rem;
+	height: 0.25rem;
+	margin-left: 0.03rem;
+}
+.cut_c {
+	text-align: center;
+}
+
+.main {
+	width: 7.10rem;
+	height: 5rem;
+	/*background-color: red;*/
+	margin: auto;
+}
+.main_one {
+	width: 7.08rem;
+	height: 3.09rem;
+	background-image: url(../img/sy/bd.png);
+	background-size: 7.08rem 3.09rem;
+	margin-bottom: 0.24rem;
+}
+.main_o_l {
+	width: 2.72rem;
+	height: 100%;
+	float: left;
+}
+.main_o_l img {
+	width: 2rem;
+	height: 2rem;
+	margin: 0.36rem;
+}
+.main_o_c {
+	width: 2.8rem;
+	height: 100%;
+	float: left;
+}
+.main_o_c p {
+	color: #030303;
+	font-size: 0.22rem;
+	margin: 0.1rem 0;
+}
+.main_o_c h3 {
+	color: #030303;
+	font-size: 0.28rem;
+	margin: 0.35rem 0 0.2rem;
+}
+.main_o_c h2 {
+	color: #f41117;
+	font-size: 0.4rem;
+	margin-bottom: 0;
+}
+#p {
+	background-color: #ebbeb7;
+	width: 1.68rem;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	text-align: center;
+}
+.main_o_r {
+	width: 1.3rem;
+	height: 100%;
+	float: left;
+}
+.main_o_r p {
+	float: right;
+	color: #030303;
+	font-size: 0.22rem;
+	margin: 0.4rem 0 0.2rem;
+}
+#m {
+	margin-top: 1.5rem;
+}
+.footer {
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: url(../img/sy/b.png);
+	background-size: 7.5rem 0.88rem;
+	z-index: 99;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer img {
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0.1rem 0.51rem 0;
+}
+.footer p {
+	width: 0.5rem;
+	height: 100%;
+	font-size: 0.22rem;
+	margin: 0 auto 0.1rem;
+	color: #eee7e6;
+}
+.footer div {
+	width: 1.5rem;
+	height: 100%;
+	float: left;
+}
